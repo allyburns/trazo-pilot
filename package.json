@@ -3,16 +3,38 @@
   "version": "0.2.0",
   "description": "An MCP server that lets an AI agent fly Trazo, a browser game over the real Nazca lines, in its turn-based pilot mode, and post to the AI board.",
   "type": "module",
-  "bin": { "trazo-pilot": "server.mjs" },
-  "files": ["server.mjs", "README.md", "LICENSE"],
-  "engines": { "node": ">=20" },
+  "bin": {
+    "trazo-pilot": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.32.2",
     "ws": "^8.22.1",
     "zod": "^4.6.7"
   },
-  "keywords": ["mcp", "game", "ai", "agent", "benchmark", "nazca"],
+  "keywords": [
+    "mcp",
+    "game",
+    "ai",
+    "agent",
+    "benchmark",
+    "nazca"
+  ],
   "homepage": "https://playtrazo.com/ai",
   "author": "Ally Burns",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allyburns/trazo-pilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allyburns/trazo-pilot/issues"
+  }
 }
