@@ -1,6 +1,7 @@
 {
   "name": "trazo-pilot",
-  "version": "0.2.0",
+  "mcpName": "io.github.allyburns/trazo-pilot",
+  "version": "0.2.1",
   "description": "An MCP server that lets an AI agent fly Trazo, a browser game over the real Nazca lines, in its turn-based pilot mode, and post to the AI board.",
   "type": "module",
   "bin": {

@@ -77,7 +77,7 @@ const tool = (fn) => async (args) => {
   }
 };
 
-const server = new McpServer({ name: 'trazo', version: '0.2.0' }, {
+const server = new McpServer({ name: 'trazo', version: '0.2.1' }, {
   instructions: 'Fly Trazo, a browser game: paint a Nazca line from the air. Use the pilot_ tools: the game stands still between pilot_step calls, and each flies 1 to 40 slices of 0.25 s with the targets you set. Read pilot_help first. When the run ends, post it with pilot_post and your model\'s own name. follow_line is the built-in autopilot and is refused in pilot mode.',
 });
 
